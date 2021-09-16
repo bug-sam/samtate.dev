@@ -13,7 +13,6 @@ jobs:
       run: |
         npm run build
   deploy:
-    runs-on: ubuntu-latest
     - uses: actions/checkout@master
     - uses: jakejarvis/s3-sync-action@master
       with:
