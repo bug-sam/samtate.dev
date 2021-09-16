@@ -3,8 +3,7 @@ name: Publish to s3
 on:
   push:
     branches:
-    - master
-
+    - main
 
 jobs:
   bulld and deploy:
