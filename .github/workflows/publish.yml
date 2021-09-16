@@ -7,9 +7,13 @@ on:
 
 
 jobs:
-  deploy:
+  bulld:
     runs-on: ubuntu-latest
     steps:
+      run: |
+        npm run build
+  deploy:
+    runs-on: ubuntu-latest
     - uses: actions/checkout@master
     - uses: jakejarvis/s3-sync-action@master
       with:
@@ -20,5 +24,3 @@ jobs:
         AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
         AWS_REGION: 'us-east-2'   # optional: defaults to us-east-1
         SOURCE_DIR: 'build'      # optional: defaults to entire repository
-      run:
-        npm run build
