@@ -18,8 +18,8 @@ class Credits extends React.Component {
   }
   render() {
     return (
-        <FadeInSection>
-      <div id="credits">
+      <FadeInSection>
+        <div id="credits">
           <div className="ending-credits">
             <div>Built by Samuel Tate.</div>
             <div>
@@ -27,8 +27,8 @@ class Credits extends React.Component {
               <a href="https://github.com/gazijarin"> Gazi Jarin.</a>
             </div>
           </div>
-      </div>
-        </FadeInSection>
+        </div>
+      </FadeInSection>
     );
   }
 }

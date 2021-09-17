@@ -32,7 +32,7 @@ class Projects extends React.Component {
         desc: "My final Project for Interactive Computer Graphics. The game engine was created from scratch using WebGL.",
         techStack: "JavaScript, WebGL",
         source: "",
-        link: "https://samuel-tate.itch.io/survive"
+        link: "/ghost_buster"
       },
     ];
 
