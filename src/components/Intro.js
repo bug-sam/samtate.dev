@@ -28,8 +28,8 @@ class Intro extends React.Component {
         <FadeInSection>
           <div className="intro-desc">
             I'm a software engineer who currently lives in Philadelphia.
-            I'm interested in back-end development and devops, and I also dabble
-            in OS development. My other interests include music, anime, and the video game
+            I'm interested in back-end development, DevOps, and OS development.
+            My personal interests include music, anime, and the video game
             Super Smash Bros. Melee.
           </div>
           <a

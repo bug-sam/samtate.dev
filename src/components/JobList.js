@@ -103,10 +103,10 @@ const JobList = () => {
       title: "Software and Dev Ops Engineer Co-op",
       duration: "September 2019 – April 2020",
       desc: [
+        "Developed serverless Node.js applications using AWS Lambda",
         "Created CI/CD Pipelines for containerized applications using Travis CI and Bitbucket Pipelines",
-        "Developed serverless back-end Node.js applications in AWS Lambda",
-        "Automated the creation of environments using AWS CloudFormation",
-        "Set up Jira and wrote documentation in Confluence to establish an agile environment",
+        "Automated the creation of production website environments using AWS CloudFormation",
+        "Set up Jira and wrote documentation in Confluence to establish an agile working environment",
       ]
     },
     {
@@ -115,7 +115,7 @@ const JobList = () => {
       duration: "September 2018 – April 2019",
       desc: [
         "Maintained and improved RESTful API for the PI System via bug fixes and feature implementation",
-        "Created internal tools used by my team and the company with c# and Powershell",
+        "Created internal tools used by my team and the company with C# and Powershell",
         "Gained DevOps experience by working with boards, git, and pipelines in Azure DevOps",
       ]
     },
