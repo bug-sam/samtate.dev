@@ -39,10 +39,12 @@ class About extends React.Component {
       </>,
       <>
         My hobbies are <b>music</b>, <b>anime</b>, and <b>melee</b>.
-        Music has been an important part of my life for many years. Recently, I've been jamming with
-        a couple of friends, and I'm looking to play a house show with them somewhere in West Philly.
-        If you're into anime, you can check out my <a href="https://anilist.co/user/flamuel/">AniList</a>.
-        I'd love to connect and talk anime with other fans!
+        Music has been an important part of my life for many years. Recently, I started a band with
+        a couple of friends called Ghost in the Attic. Listen to us on
+        <a href="https://www.youtube.com/watch?v=dZEufAOSBvc"> Youtube</a>!
+        If you're into anime, you can check out my
+        <a href="https://anilist.co/user/flamuel/"> AniList</a>. 
+        I'd love to connect and talk anime with other fans! 
         Melee has been a quarantine hobby that I've fallen in love with -
         I plan on competing in my first tournament very soon. My smash.gg is 
         <a href="https://smash.gg/user/f064c611"> here</a>.
@@ -59,8 +61,7 @@ class About extends React.Component {
     ];
 
     return (
-      <div id="about_me">
-        <FadeInSection>
+      <div id="about_me"> <FadeInSection>
           <div className="section-header">
             <span className="section-title">/about_me</span>
           </div>
