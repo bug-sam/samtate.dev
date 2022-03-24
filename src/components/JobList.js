@@ -88,9 +88,20 @@ const JobList = () => {
 
   const experienceItems = [
     {
+      name: "Comcast",
+      title: "Software Developer I",
+      duration: "January 2022 - Current",
+      desc: [
+        "Maintained and improved an Angular application used by thousands of Comcast employees",
+        "Maintained and improved backend .NET APIs",
+        "Migrated codebase to a monorepo using Nx",
+        "Developed pipelines for continuous integration and deployment",
+      ]
+    },
+    {
       name: "Alex's Lemonade Stand",
       title: "Software Developer Co-op",
-      duration: "September 2020 – April 2021",
+      duration: "September 2020 - April 2021",
       desc: [
         "Developed python client and CLI for refine.bio",
         "Maintained and improved refine.bio RESTful API",
@@ -101,7 +112,7 @@ const JobList = () => {
     {
       name: "FS Investments",
       title: "Software and Dev Ops Engineer Co-op",
-      duration: "September 2019 – April 2020",
+      duration: "September 2019 - April 2020",
       desc: [
         "Developed serverless Node.js applications using AWS Lambda",
         "Created CI/CD Pipelines for containerized applications using Travis CI and Bitbucket Pipelines",
@@ -112,7 +123,7 @@ const JobList = () => {
     {
       name: "OSIsoft",
       title: "Software Developer Co-op",
-      duration: "September 2018 – April 2019",
+      duration: "September 2018 - April 2019",
       desc: [
         "Maintained and improved RESTful API for the PI System via bug fixes and feature implementation",
         "Created internal tools used by my team and the company with C# and Powershell",
