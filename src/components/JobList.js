@@ -148,7 +148,7 @@ const JobList = () => {
   return (
     <div className={classes.root}>
       <Tabs
-        orientation={!isHorizontal ? "vertical" : "horizontal"}
+        orientation={isHorizontal ? "horizontal" : "vertical"}
         variant={isHorizontal ? "fullWidth" : "scrollable"}
         value={value}
         onChange={handleChange}

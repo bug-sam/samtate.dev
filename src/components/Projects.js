@@ -21,6 +21,13 @@ class Projects extends React.Component {
   render() {
     const projects = [
       {
+        name: "Dragonville Community Hospital",
+        desc: "Nursing simulator that allows students to practice triaging patients.",
+        techStack: "Unity, C#",
+        source: "",
+        link: "http://cci.drexel.edu/seniordesign/2021_2022/DRAGONVILLE_COMMUNITY_HOSPITAL/index.html"
+      },
+      {
         name: "Survive",
         desc: "A top-down shooter that I made in order to get familiar with C# and Unity.",
         techStack: "Unity, C#",
