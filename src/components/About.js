@@ -17,7 +17,8 @@ class About extends React.Component {
     });
   }
   render() {
-    const image = require("./assets/me.png");
+    const grad_img = require("./assets/grad.jpg");
+    const guitar_img = require("./assets/guitar.jpg");
 
     const aboutParagraphs = [
       <>
@@ -38,10 +39,23 @@ class About extends React.Component {
         systems in the future.
       </>,
       <>
-        My hobbies are <b>music</b>, <b>anime</b>, and <b>melee</b>.
-        Music has been an important part of my life for many years. Recently, I started a band with
-        a couple of friends called Ghost in the Attic. Listen to us on
-        <a href="https://www.youtube.com/watch?v=dZEufAOSBvc"> Youtube</a>!
+        My biggest interest outside of computer science is <b>music</b>.
+        Currently, I play in two bands!
+        <a href="https://www.instagram.com/ghostintheatticband/"> Ghost in the Attic </a>
+        is a band that I started with my cousin and a couple of our friends.
+        We're still trying to find our sound, but we love emo, and are doing our best to play it!
+        Check out our latest music on 
+        <a href="https://ghostintheatticdelco.bandcamp.com/"> Bandcamp</a>!
+        I also recently started playing drums for
+        <a href="https://www.instagram.com/bristoltooth/"> Bristoltooth</a>.
+        I like to describe our sound as "indie" - I know - super vague.
+        If you're curious, you can check out everything we've released so far on
+        <a href="https://bristoltooth.bandcamp.com/"> Bandcamp</a>!
+        Also, feel free to follow us on instagram! we play shows all the time in Philly, and
+        instagram is the best place to get updates or to contact us!
+      </>,
+      <>
+        I'm also into <b>anime</b>, and <b>melee</b>.
         If you're into anime, you can check out my
         <a href="https://anilist.co/user/flamuel/"> AniList</a>. 
         I'd love to connect and talk anime with other fans! 
@@ -51,14 +65,6 @@ class About extends React.Component {
       </>
     ]
 
-    const tech_stack = [
-      "Python",
-      "JavaScript",
-      "C#",
-      "C",
-      "AWS",
-      "Azure",
-    ];
 
     return (
       <div id="about_me"> <FadeInSection>
@@ -68,17 +74,10 @@ class About extends React.Component {
           <div className="about-content">
             <div className="about-description">
               {aboutParagraphs.map((paragraph, i) => <p key={i}>{paragraph}</p>)}
-              {"Here are some technologies I have experience working with:"}
-              <ul className="tech-stack">
-                {tech_stack.map((tech_item, i) => (
-                  <FadeInSection delay={`${i + 1}00ms`} key={i}>
-                    <li>{tech_item}</li>
-                  </FadeInSection>
-                ))}
-              </ul>
             </div>
-            <div className="about-image">
-              <img src={image.default} alt="['L_']"/>
+            <div className="about-images">
+              <img src={grad_img.default} alt="me in my cap and gown"/>
+              <img src={guitar_img.default} alt="me plaing guitar"/>
             </div>
           </div>
         </FadeInSection>
