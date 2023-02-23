@@ -67,7 +67,8 @@ class About extends React.Component {
 
 
     return (
-      <div id="about_me"> <FadeInSection>
+      <div id="about_me">
+        <FadeInSection>
           <div className="section-header">
             <span className="section-title">/about_me</span>
           </div>
@@ -76,8 +77,8 @@ class About extends React.Component {
               {aboutParagraphs.map((paragraph, i) => <p key={i}>{paragraph}</p>)}
             </div>
             <div className="about-images">
-              <img src={grad_img.default} alt="me in my cap and gown"/>
-              <img src={guitar_img.default} alt="me plaing guitar"/>
+              <img src={grad_img} alt="me in my cap and gown"/>
+              <img src={guitar_img} alt="me plaing guitar"/>
             </div>
           </div>
         </FadeInSection>
