@@ -5,24 +5,26 @@
   justify-content: center;
   padding-left: 15%;
   min-height: 100vh;
+  font-family: "NTR", sans-serif;
 }
 
 .intro-title {
-  font-family: "NTR", sans-serif;
   font-size: 86px;
   color: var(--lightest-slate);
 }
 
 .intro-name {
-  font-family: "NTR", sans-serif;
   color: var(--orange);
   font-weight: bold;
   font-size: 86px;
 }
 
+.intro-pronouns {
+  color: var(--orange);
+}
+
 .intro-desc {
   color: var(--slate);
-  font-family: "NTR", sans-serif;
   font-size: 20px;
   max-width: 55%;
   padding-bottom: 50px;
@@ -30,11 +32,14 @@
 
 .intro-contact {
   font-size: 22px;
-  font-family: "NTR", sans-serif;
   padding: 10px 20px;
   cursor: pointer;
   border: 2px solid var(--orange);
   border-radius: 4px;
+}
+
+.intro-contact-text {
+  padding-left: 10px;
 }
 
 .intro-contact:hover {

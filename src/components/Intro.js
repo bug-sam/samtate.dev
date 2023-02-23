@@ -23,7 +23,7 @@ class Intro extends React.Component {
       <div id="intro">
         <span className="intro-title">
           hi, my name is 
-          <span className="intro-name"> samuel</span>
+          <span className="intro-name"> sam</span>
         </span>
         <FadeInSection>
           <div className="intro-desc">
@@ -31,13 +31,18 @@ class Intro extends React.Component {
             I'm interested in full-stack development, DevOps, and OS development.
             My personal interests include music, anime, and the video game
             Super Smash Bros. Melee.
+            I prefer to be referred to using 
+            <span className="intro-pronouns"> they/them </span>
+            pronouns!
           </div>
           <a
             href="mailto:samuel.tate@outlook.com"
             className="intro-contact"
           >
             <EmailRoundedIcon></EmailRoundedIcon>
-            {"  Write to me!"}
+            <span className="intro-contact-text">
+              Write to me!
+            </span>
           </a>
         </FadeInSection>
       </div>
