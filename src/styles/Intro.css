@@ -14,13 +14,13 @@
 }
 
 .intro-name {
-  color: var(--orange);
+  color: var(--lavender);
   font-weight: bold;
   font-size: 86px;
 }
 
 .intro-pronouns {
-  color: var(--orange);
+  color: var(--yellow);
 }
 
 .intro-desc {
@@ -34,7 +34,7 @@
   font-size: 22px;
   padding: 10px 20px;
   cursor: pointer;
-  border: 2px solid var(--orange);
+  border: 2px solid var(--lavender);
   border-radius: 4px;
 }
 

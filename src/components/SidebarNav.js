@@ -59,11 +59,11 @@ class SidebarNav extends React.Component {
           <a href="mailto:samuel.tate@outlook.com">
             <EmailRoundedIcon style={{ fontSize: 20 }}></EmailRoundedIcon>
           </a>
-          <a href="https://github.com/samuel-tate">
-            <GitHubIcon style={{ fontSize: 19 }}></GitHubIcon>
+          <a href="https://github.com/bug-sam">
+            <GitHubIcon style={{ fontSize: 20 }}></GitHubIcon>
           </a>
           <a href="https://www.linkedin.com/in/sam-tate/">
-            <LinkedInIcon style={{ fontSize: 21 }}></LinkedInIcon>
+            <LinkedInIcon style={{ fontSize: 20 }}></LinkedInIcon>
           </a>
         </div>
       </div>

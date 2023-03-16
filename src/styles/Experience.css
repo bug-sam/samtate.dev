@@ -13,7 +13,7 @@
 .joblist-job-company {
   font-family: "NTR", sans-serif;
   font-size: 28px;
-  color: var(--orange);
+  color: var(--lavender);
   font-weight: bold;
 }
 
@@ -41,16 +41,16 @@
 }
 
 .PrivateTabIndicator-colorSecondary-5 {
-  background-color: var(--orange) !important;
+  background-color: var(--lavender) !important;
 }
 .jss5 {
-  background-color: var(--orange) !important;
+  background-color: var(--lavender) !important;
 }
 .makeStyles-tabs-2 {
   border-right: 1px solid var(--lightest-navy) !important;
 }
 .MuiButtonBase-root:focus {
-  color: var(--orange) !important;
+  color: var(--lavender) !important;
 }
 
 ul {
@@ -60,7 +60,7 @@ ul {
 
 .job-description li::before {
   content: "▹    ";
-  color: var(--orange);
+  color: var(--lavender);
   position: absolute;
   left: 0;
 }
@@ -111,7 +111,7 @@ ul {
 
 .tech-stack li::before {
   content: "▹    ";
-  color: var(--orange);
+  color: var(--lavender);
   position: absolute;
   left: 0;
 }
