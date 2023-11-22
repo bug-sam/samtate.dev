@@ -5,12 +5,12 @@ import FadeInSection from "./FadeInSection";
 
 const Experience = () => {
     const tech_stack = [
+        "React",
+        "AWS",
         "Python",
-        "JavaScript",
+        "PHP/Laravel",
         "C#",
         "C",
-        "AWS",
-        "Azure",
     ];
 
     return (

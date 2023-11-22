@@ -8,12 +8,9 @@ const About = () => {
 
     const aboutParagraphs = [
         <>
-            I am currently studying <b>Computer Science</b> at
+            I am a software developer who studied <b>Computer Science</b> at
             <b> Drexel University</b>, with a focus in intelligent systems
-            and human-computer interaction. I have completed three co-ops while
-            studying at Drexel. Each one has taught me a lot, and they have provided
-            opportunities for me to develop and hone professional skills while working
-            in real-world business settings.
+            and human-computer interaction.
         </>,
         <>
             During my co-ops I've had the ability to experiment and explore my programming interests.
@@ -27,17 +24,21 @@ const About = () => {
         <>
             My biggest interest outside of computer science is <b>music</b>.
             Currently, I play in two bands!
-            <a href="https://www.instagram.com/ghostintheatticband/"> Ghost in the Attic </a>
-            is a band that I started with my cousin and a couple of our friends.
-            We're still trying to find our sound, but we love emo, and are doing our best to play it!
-            Check out our latest music on
-            <a href="https://ghostintheatticdelco.bandcamp.com/"> Bandcamp</a>!
-            I also recently started playing drums for
+            I play drums for a band called
             <a href="https://www.instagram.com/bristoltooth/"> Bristoltooth</a>.
             I like to describe our sound as "indie" - I know - super vague.
             If you're curious, you can check out everything we've released so far on
             <a href="https://bristoltooth.bandcamp.com/"> Bandcamp</a>!
-            Also, feel free to follow us on instagram! we play shows all the time in Philly, and
+            We just finished recording our first full length LP at Sound Acres and plan
+            to release it sometime next year.
+            <a href="https://www.instagram.com/ghostintheatticband/"> Ghost in the Attic </a>
+            is a band that I started with my cousin and a couple of our friends.
+            Our taste in music ranges from midwest emo to shoegaze to hardcore punk, and
+            I think all of these sounds can be heard in the music we create together which is really
+            cool.
+            Check out some of the stuff we've released on
+            <a href="https://ghostintheatticdelco.bandcamp.com/"> Bandcamp</a>!
+            Also, feel free to follow both of my bands on instagram! we play shows all the time in Philly, and
             instagram is the best place to get updates or to contact us!
         </>,
         <>

@@ -22,12 +22,12 @@ const Intro = () => {
                     pronouns!
                 </div>
                 <a
-                    href="mailto:samuel.tate@outlook.com"
+                    href="#contact_me"
                     className="intro-contact"
                 >
                     <EmailRoundedIcon></EmailRoundedIcon>
                     <span className="intro-contact-text">
-                        Write to me!
+                        Contact Me!
                     </span>
                 </a>
             </FadeInSection>
